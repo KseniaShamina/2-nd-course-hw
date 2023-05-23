@@ -1,2 +1,2 @@
-let a = 10;
-alert(a);
+let year = 2007;
+alert(year);
