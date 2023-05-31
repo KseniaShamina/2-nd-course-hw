@@ -1,7 +1,10 @@
 let year = 2007;
-alert(year);
+const(year);
 
 let a = 10;
+alert(a);
+
+let a = 20;
 alert(a);
 
 let firstname = Brendan Eich;
@@ -35,18 +38,18 @@ num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-num += 1;
-num -= 1;
+num++;
+num--;
 alert(num);
 
 let age = prompt('Сколько вам лет?');
 alert(age);
 
-let user = {
+let user = /
     name: "Mike",
     age: 23,
     city: "Toronto"
-  };
+  /;
   alert( user.name );
   alert( user.age );
   alert( user.city);
