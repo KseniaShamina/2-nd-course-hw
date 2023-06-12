@@ -65,4 +65,3 @@ switch (month) {
 	default: console.log('Что-то тебя совсем далеко унесло');
 		break;
 }
-
