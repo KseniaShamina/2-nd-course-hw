@@ -1,0 +1,26 @@
+@media(max-width: 768px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+
+.title {
+    font-size: 32px;
+    padding-right: 0;
+    width: 100%;
+}
+
+.top__text {
+font-size: 14px;
+}
+
+.for__game {
+gap: 16px;
+grid-template-columns: repeat(4, 1fr);
+}
+.top__textbutton {
+    width: 100%;
+}
+}
+
