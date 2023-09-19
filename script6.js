@@ -41,3 +41,14 @@ function getDate () {
     let myDate = new Date (2025, 5, 42, 12, 30, 20, 10);
     return (myDate);
 }
+
+let list = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+list = list.sort(() => Math.random() - 0.5);
+alert(list); 
+
+const question = ('Чему равнялся первый элемент массива?');
+const questionTwo = ('Чему равнялся последний элемент массива?')
+
+
+
+
