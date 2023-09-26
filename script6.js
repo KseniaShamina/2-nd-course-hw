@@ -49,6 +49,13 @@ alert(list);
 const question = ('Чему равнялся первый элемент массива?');
 const questionTwo = ('Чему равнялся последний элемент массива?')
 
+if (arr.forEach(element => {
+  console.log(`Здесь сейчас ${element}`);
+});) {
+    console.log('Угадал');
+} else {
+    console.log('Не угадал');
+}
 
 
 
