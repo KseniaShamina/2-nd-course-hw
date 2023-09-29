@@ -49,13 +49,13 @@ alert(list);
 const question = ('Чему равнялся первый элемент массива?');
 const questionTwo = ('Чему равнялся последний элемент массива?')
 
-if (list[0] === 'Яблоко') {
+if (question.list[0] === 'Яблоко') {
     console.log('Угадал');
 } else {
     console.log('Не угадал');
 }
 
-if (list[list.length - 1] === 'Мандарин') {
+if (questionTwo.list[list.length - 1] === 'Мандарин') {
     console.log('Угадал');
 } else {
     console.log('Не угадал');
