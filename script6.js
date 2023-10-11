@@ -7,12 +7,18 @@ if (answerUser.toUpperCase() === answer.toUpperCase()) {
 	alert('Не угадал, правильный ответ: ${answer}'); 
 }
 
+function searchStart(arr, str) {
+    return arr.filter(item => item.toUpperCase().startsWith(str.toUpperCase()));
+}
+
+searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко');
+
 Math.floor(32.58884);
 Math.ceil(32.58884);
 Math.round(32.58884);
 
 function FindNumbers(numbers) {
-const arrayOfNumbers = numbers.split ('52 53 49 77 21 32')
+const arrayOfNumbers = [52, 53, 49, 77, 21, 32];
 return `${Math.max(...arrayOfNumbers)} ${Math.min(...arrayOfNumbers)}`
 }
 
@@ -20,7 +26,7 @@ function GetRandomInt (minValue, maxValue) {
     return Math.round (Math.random() * (maxValue - minValue)) + minValue; 
 }
 
-console.log (1, 10);
+console.log (GetRandomIn 1, 10);
 
 function newArray(a, b) {
     let array = [];
