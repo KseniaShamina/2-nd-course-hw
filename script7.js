@@ -21,9 +21,9 @@ function isPositive(number) {
 }
 
 function isMale(name, gander) {
-  if (gender === 'male') [
+  if (gender === 'male') {
     return name + gander;
-  ]
+}
 
 }
 
