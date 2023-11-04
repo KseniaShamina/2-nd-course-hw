@@ -72,4 +72,4 @@ function sayHi (name) {
     console.log(`Привет, ${name}!`);
 }
 
-setTimeout (delayForSecond(sayHi('Глеб')));
+delayForSecond(() => sayHi(‘Gleb’));
