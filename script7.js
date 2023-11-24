@@ -22,7 +22,7 @@ function isPositive(number) {
 
 function isMale(person) {
   if (person === 'male') {
-    return (person);
+    return true;
 }
 
 }
