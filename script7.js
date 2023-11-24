@@ -5,10 +5,10 @@ const people = [
     { name: 'Оксана', age: 47 }
  ];
  people.sort(function (a, b) {
-    if (a.name > b.name) {
+    if (a.age > b.age) {
       return 1;
     }
-    if (a.name < b.name) {
+    if (a.age < b.age) {
       return -1;
     }
     return 0;
@@ -20,9 +20,9 @@ function isPositive(number) {
   return number > 0;
 }
 
-function isMale(name, gander) {
-  if (gender === 'male') {
-    return name + gander;
+function isMale(person) {
+  if (person === 'male') {
+    return true;
 }
 
 }
@@ -73,4 +73,4 @@ function sayHi (name) {
 }
 
 
-delayForSecond(() => sayHi(‘Gleb’));
+delayForSecond(cb() => sayHi(‘Gleb’));
